@@ -1,0 +1,1 @@
+import{N}from"./menu-submenu.slds.js";import"../../../assets/index-chunk.js";import"../../../assets/index-chunk3.js";import"../../../assets/index-chunk4.js";import"./menu-submenu.js";import"../../../assets/index-chunk2.js";import"../../icon/icon.slds.js";import"../../icon/icon.js";export{N as NjcSldsSubmenu};

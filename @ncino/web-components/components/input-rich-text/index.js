@@ -1,0 +1,1 @@
+import{N as x}from"./input-rich-text.slds.js";import"../../assets/index-chunk.js";import"../../assets/index-chunk4.js";import"./input-rich-text.js";import"../../assets/index-chunk2.js";import"../input/slds/input-label/input-label.slds.js";import"../../assets/index-chunk3.js";import"../../assets/index-chunk8.js";export{x as NscInputRichText};

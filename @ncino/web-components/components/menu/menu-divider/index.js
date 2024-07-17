@@ -1,0 +1,1 @@
+import{N as e}from"./menu-divider.slds.js";import"../../../assets/index-chunk.js";import"../../../assets/index-chunk3.js";import"../../../assets/index-chunk4.js";import"./menu-divider.js";export{e as NjcSldsMenuDivider};
