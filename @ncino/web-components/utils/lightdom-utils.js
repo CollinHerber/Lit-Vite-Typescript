@@ -1,0 +1,1 @@
+function c(l,r){var o,n;const e=l.querySelector(`[slot="${r}"]`);if(!e)return null;const t=e.cloneNode(!0);return e.remove(),(n=(o=t.firstChild)==null?void 0:o.parentElement)==null||n.removeAttribute("slot"),t}export{c};
