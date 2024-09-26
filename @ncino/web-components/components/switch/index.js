@@ -1,0 +1,1 @@
+import{N}from"./gator/switch.gator.js";import"./switch.js";import"../../assets/index-chunk.js";import"../../assets/index-chunk2.js";import"../../utils/string-utils.js";import"../../assets/index-chunk3.js";export{N as NgcSwitch};

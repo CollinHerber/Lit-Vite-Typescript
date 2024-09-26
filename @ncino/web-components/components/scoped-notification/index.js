@@ -1,0 +1,1 @@
+import{N as d}from"./scoped-notification.slds.js";import"../../assets/index-chunk.js";import"../../assets/index-chunk3.js";import"../../assets/index-chunk2.js";import"../../assets/index-chunk6.js";import"./scoped-notification.js";import"../icon/slds/icon.slds.js";import"../icon/icon.js";export{d as NjcSldsScopedNotification};

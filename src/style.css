@@ -1,0 +1,12 @@
+.token-area ngc-button {
+    --ngc-button-color: white;
+    --ngc-button-background-color: #0176d3;
+    --ngc-button-padding: 10px 20px;
+    --ngc-button-border-radius: 5px;
+    --ngc-button-hover-background-color: #01579b;
+    --ngc-button-pressed-background-color: #013d6b;
+}
+
+.token-area {
+    margin-top: 50px;
+}

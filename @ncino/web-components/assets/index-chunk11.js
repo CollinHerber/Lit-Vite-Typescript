@@ -1,0 +1,1 @@
+const o=":host,:root{--gator-menu-dropdown-max-width: 400px;--gator-menu-item-hover-background-color: var(--color-blue-5);--gator-menu-item-pressed-background-color: var(--color-blue-25)}";export{o as m};
