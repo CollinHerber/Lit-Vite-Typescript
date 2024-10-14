@@ -8,6 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@ncino/web-components": "1.0.0-alpha.39"
+  },
   "devDependencies": {
     "typescript": "latest",
     "vite": "latest"

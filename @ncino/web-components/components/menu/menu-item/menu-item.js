@@ -1,1 +1,0 @@
-import{h as p}from"../../../assets/index-chunk.js";import{n as a}from"../../../assets/index-chunk2.js";var u=Object.defineProperty,f=(e,n,o,v)=>{for(var r=void 0,t=e.length-1,s;t>=0;t--)(s=e[t])&&(r=s(n,o,r)||r);return r&&u(n,o,r),r};class i extends p{constructor(){super(...arguments),this.value=""}}f([a({type:String})],i.prototype,"value");export{i as N};
