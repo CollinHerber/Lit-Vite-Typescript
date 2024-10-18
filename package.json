@@ -9,7 +9,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@ncino/web-components": "1.0.0-alpha.44"
+        "@ncino/web-components": "1.0.0"
     },
     "devDependencies": {
         "typescript": "latest",
