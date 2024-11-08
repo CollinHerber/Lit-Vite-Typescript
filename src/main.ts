@@ -1,5 +1,5 @@
 import './style.css';
-import '@ncino/web-components' //This would be replaced with the npm package
+import '@ncino/web-components';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
