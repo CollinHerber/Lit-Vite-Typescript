@@ -12,8 +12,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <ngc-button>A Gator Button With Tokens</ngc-button>
 
         <ngc-card elevated="true">
-          <ngc-card-title>Card Title</ngc-card-title>
-          <ngc-card-subtitle>Card Subtitle</ngc-card-subtitle>
+          <ngc-card-header>
+            <ngc-text-detail size="large" title="Card Title" subtitle="Card Subtitle" invert-title>
+              <ngc-illustration slot="prepend" name="balloons"></ngc-illustration>
+            </ngc-text-detail>
+          </ngc-card-header>
           <ngc-card-content>
               Here is some content that you can put into a card. <br>
               This is a lot and can be anything you'd like
