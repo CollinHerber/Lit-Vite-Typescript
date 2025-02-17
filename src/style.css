@@ -9,6 +9,7 @@
 
 .token-area ngc-card {
     --ngc-card-max-width: 100%;
+    --ngc-card-width: 100%;
 }
 
 .token-area {
