@@ -11,22 +11,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <h3>Designing a NGC Button with SLDS using Tokens</h3>
         <ngc-button>A Gator Button With Tokens</ngc-button>
 
-        <ngc-card elevated="true">
-          <ngc-card-header>
-            <ngc-text-detail size="large" title="Card Title" subtitle="Card Subtitle" invert-title>
-              <ngc-illustration slot="prepend" name="balloons"></ngc-illustration>
-            </ngc-text-detail>
-          </ngc-card-header>
-          <ngc-card-content>
-              Here is some content that you can put into a card. <br>
-              This is a lot and can be anything you'd like
-          </ngc-card-content>
-          <ngc-card-footer>
-              <div style="text-align: center">
-                  Card Footer
-              </div>
-          </ngc-card-footer>
-        </ngc-card> 
+        <ngc-display-card elevated="true" data-testid="testid" title="TextContent" subtitle="Subheader" action-button-text="Button">
+        <div slot="top-right" style="display: flex; align-items: center; gap: 1rem">
+            <ngc-button data-testid="CTA" variant="secondary">CTA</ngc-button>
+            <ngc-menu placement="bottom-end">
+                <ngc-icon-button slot="trigger" data-testid="overflow" icon-name="overflow-menu" data-aria-label="overflow menu">
+                </ngc-icon-button>
+                <ngc-menu-item value="Menu Item One"></ngc-menu-item>
+                <ngc-menu-item value="Menu Item Two"></ngc-menu-item>
+                <ngc-menu-item value="Menu Item Three"></ngc-menu-item>
+            </ngc-menu>
+        </div>
+        <slot-placeholder></slot-placeholder>
+    </ngc-display-card>
     </div>
 
   </div>
