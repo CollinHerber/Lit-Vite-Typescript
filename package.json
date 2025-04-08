@@ -3,14 +3,13 @@
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "packageManager": "pnpm@10.2.1",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview"
     },
     "dependencies": {
-        "@ncino/web-components": "2.0.0"
+        "@ncino/web-components": "3.2.0"
     },
     "devDependencies": {
         "typescript": "latest",
